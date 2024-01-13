@@ -283,8 +283,8 @@
   <script src="js/bg.js" type="text/javascript"></script>
   <script src="js/cban.js" type="text/javascript"></script>
   <script>
-    var ul = document.querySelector('.nav-menu')
-    var a = ul.querySelectorAll('li a')
+    const ul = document.querySelector('.nav-menu');
+    const a = ul.querySelectorAll('li a');
     console.dir(a)
     window.addEventListener('resize', function (e) {
       if (window.innerWidth < 575) {
